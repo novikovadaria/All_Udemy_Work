@@ -1,0 +1,21 @@
+body{
+    margin: 0;
+    height: 100vh;
+    display: grid;
+    place-items: center;
+}
+
+#block {
+    height: 250px;
+    width: 250px;
+    background-color: peru;
+
+    transition: all 1s ease-in-out;
+}
+
+#block:hover {
+    transform: rotate(1turn);
+    border-radius: 50%;
+    background-color: teal;
+}
+

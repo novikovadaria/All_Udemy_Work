@@ -1,0 +1,8 @@
+img {
+    filter:blur(10px);
+    filter:brightness(5%);
+    filter:grayscale(100%);
+    filter:contrast(10px);
+    filter:opacity(0.8);
+    filter: sepia(50%)
+}

@@ -1,0 +1,22 @@
+section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+
+}
+
+h1 {
+    color:antiquewhite;
+}
+
+a {
+    text-decoration: wavy;
+    box-shadow: 5px 5px 3px lawngreen;
+    color: white
+}
+
+a:hover{
+    background-color: bisque;
+    box-shadow: 5px 5px 3px #333;
+}

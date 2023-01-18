@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url('home_page.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    line-height: 1.8;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    color: black;
+    font-size: 55px;
+    font-weight: 300;
+    margin-top: 25px;
+}
+
+.pair {
+    margin-top: 40px;
+    padding: 20px;
+    background-color: rgb(249, 224, 124);
+    height: 290px;
+    width: 550px;
+    text-align: center;
+    color: black;
+}
+
+.question {
+    margin-top: 20px;
+    padding: 15px;
+    font-size: 25px;
+    font-weight: 400;
+    margin-bottom: 40px;
+}
+
+.answer {
+    background-color: rgb(230, 201, 84);
+    padding: 10px;
+}
+
+.answer p {
+    text-align: center;
+    font-size: 20px;
+}
+
+.confirmation {
+    background-color: rgb(249, 224, 124);
+    margin-top: 15px;
+    padding: 20px;
+    color: black;
+}
+
+.confirmation p{
+    font-size: 25px;
+    text-align: center;
+    border-bottom: 1px solid black;
+    padding-bottom: 5px;
+    box-shadow: 5px 5px 5px rgb(215, 177, 23);
+}
+
+form {
+    width: 300px;
+    margin-top: 25px;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+button, 
+a {
+    text-decoration: none;
+    border: none;
+    background: none;
+    font-size: 20px;
+    color: black;
+    box-shadow: 5px 5px 5px rgb(215, 177, 23);
+}
+
+button {
+    cursor: pointer;
+}

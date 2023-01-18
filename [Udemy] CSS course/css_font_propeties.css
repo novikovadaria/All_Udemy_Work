@@ -1,0 +1,11 @@
+section{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+p {
+    font-style: italic;
+    font-size: 50px;
+}
+
+p{
+    font-weight: 900;
+}

@@ -1,0 +1,15 @@
+body{
+    background-image: url('maxresdefault.jpg');
+}
+img {
+    height: 500px;
+    width: 600px;
+    object-fit: cover;
+}
+img:hover{
+    opacity: 0.5;
+}
+p{
+    color: white;
+    padding: 25px; 
+}

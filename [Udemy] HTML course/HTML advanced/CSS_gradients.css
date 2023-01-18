@@ -1,0 +1,18 @@
+section{
+    padding: 25px;
+    color: white;
+    height: 500px;
+    /* Linear */
+    /* background-image: linear-gradient(#abcdff, #039); */
+    /* background-image: linear-gradient(to right, #abcdff, #9708cc);
+    background-image: linear-gradient(to top, #abcdff, #9708cc); */
+    /* background-image: linear-gradient(to bottom, #abcdff, #9708cc); */
+    /* background-image: linear-gradient(
+        to left,
+        hsl(131,100%,25%),
+        #0000f9,
+        rgb(134,0,125)
+    ); */
+    background-image: radial-gradient(circle, #360940, #f05f57);
+
+}

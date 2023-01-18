@@ -1,0 +1,11 @@
+section {
+    height: 250px;
+    width: 200px;
+    padding: 10px;
+    margin: 15px;
+    border: solid 5px #666
+}
+
+* {
+    box-sizing: border-box;
+}

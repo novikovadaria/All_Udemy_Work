@@ -1,0 +1,8 @@
+section {
+    padding: 15px 25px;
+    color:brown;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: bisque;
+    display: inline-block;
+    box-shadow: 5px 10px 5px burlywood;
+}

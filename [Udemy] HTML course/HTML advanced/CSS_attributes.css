@@ -1,0 +1,13 @@
+article[id='animal-planet']{
+    background-color: antiquewhite;
+}
+
+h1[title='heading-one']{
+    font-size: 75px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+
+a[href='#']{
+    color: antiquewhite;
+}

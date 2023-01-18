@@ -1,0 +1,23 @@
+/* Descendant Selector */
+#tech h1 {
+    font-size: 55px;
+
+}
+
+/* Child Selector */
+article > p {
+    background-color: lightgray;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/* Adjacent Sibling Selector */
+/* p + a {
+    text-decoration:dashed;
+    background-color: cadetblue;
+} */
+
+/* General  Adjacent Sibling Selector */
+p ~ a {
+    text-decoration:double;
+    background-color:aqua;
+}

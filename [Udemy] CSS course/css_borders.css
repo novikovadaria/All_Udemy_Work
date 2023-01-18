@@ -1,0 +1,9 @@
+/* section {
+    border-style:double;
+    border-color: blue;
+    border-width: 2px;
+} */
+
+section {
+    border: 10px dotted indigo
+}

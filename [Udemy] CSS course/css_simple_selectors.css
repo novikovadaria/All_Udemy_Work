@@ -1,0 +1,26 @@
+body {
+    font-family:cursive;
+}
+
+/* ID SELECTOR */
+#course{
+    padding: 25px;
+}
+
+/* Class Selector */
+.tite{
+    font-size: 35px;
+}
+
+/* Universal Selector */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.title,
+.para {
+    margin: 10px;
+    padding: 15px;
+}
+

@@ -1,0 +1,18 @@
+body {
+    background-color: #4b778d;
+}
+
+/* HSL color value */
+section {
+    background-color: hsl(180, 64%, 43);
+}
+
+/* color name */
+h1{
+    color: brown;
+}
+
+/* rgb */
+p{
+    color: rgb(66, 0, 180);
+}

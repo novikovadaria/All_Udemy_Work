@@ -1,0 +1,33 @@
+/* First Child Pseudo Selector */
+article p:first-child{
+    background-color: brown;
+}
+
+/* Last Child Pseudo Selector */
+article p:last-child{
+    background-color: blueviolet;
+}
+
+/* Nth Child Pseudo Selector */
+article p:nth-child(2) {
+    background-color: azure;
+    padding: 25px;
+    color:black
+}
+
+/* First of Type Child Pseudo Selector */
+article p:first-of-type{
+    background-color: crimson;
+}
+
+/* Last of Type Child Pseudo Selector */
+article p:last-of-type{
+    background-color: crimson;
+}
+
+/* Nth Child Pseudo Selector */
+article p:nth-of-type(2){
+    background-color: azure;
+    padding: 25px;
+    color:black
+}

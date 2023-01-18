@@ -1,0 +1,10 @@
+h1 {
+    color:burlywood;
+    text-transform: uppercase;
+    text-align: center;
+}
+p{
+    letter-spacing: 0.5px;
+    word-spacing: 2px;
+    text-shadow: 2px 5px 2px black;
+}
