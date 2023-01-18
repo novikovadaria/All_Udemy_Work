@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="/static/home.css">
+        <title>Birds Jurnal</title>
+    </head>
+    <body>
+        <h1>The Birds Journal</h1>
+        <div class="content">
+            <div class="bird-content">
+                <div class="birds">
+                    <h2>Birds</h2>
+                    <ul>
+                        {% for bird in birds %}
+                        <li><a href="/bird/{{ bird.bird_id }}">{{ bird.name }}</a></li>
+                        {% endfor %}
+                    </ul>
+                </div>
+                <div class="new-bird">
+                    <h3>Add New Bird</h3>
+                    <form action="/add/bird" method="POST">
+                        <div>
+                            <!-- <label for="bird-name">Name of a Bird</label> -->
+                            <input type="text" name="bird-name" placeholder="Enter the name">
+                        </div>
+                        <input type="submit" value="Add Bird">
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="message">
+            {% for category, message in get_flashed_messages(with_categories=true) %}
+            <div style="color: {{category}};">{{ message }}</div>
+            {% endfor %}
+        </div>
+    </body>
+    </html>
